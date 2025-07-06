@@ -57,3 +57,5 @@ and click ok. Drag category volumn into row area and Discount-percentage into va
 pivot table and summarize values by average. click on a cell in the pivot table and do Alt f1 in the keyboard
 to present your work in a chart and format to your satisfaction. then ctrl X to cut and Ctrl V to paste in 
 the dashboard. Below is the chart presentation
+
+
