@@ -38,8 +38,8 @@ Having read through thoroughly, i opened the Excel data to commence the cleaning
 removing duplicate rows that are not necessary for the analysis i intend to conduct.
 
 I created a column, new column for main category, considering the fact that i noticed
-there are repitition in the content ans separated by a pipe "|" symbol. others column created are S\N 
-which was created by specifying a pattern by typing the firdt two numbers and use the fill handle
+there are repitition in the content and separated by a pipe "|" symbol. others column created are S\N 
+which was created by specifying a pattern by typing the first two numbers and use the fill handle
 to automatically fill others. Total pontential revenue was created by multiplying actual price by
 rating count, i did for the first row and used fill handle, 
 To further clean the dataset i removed the blank space in some columns by clicking on the dropdown filter and
@@ -103,6 +103,32 @@ below is the chart representation
 Duplicate the existing pivot table, unchecked initially checed fields, drag product_id field into row area,
 discount_percentage field into vales area and summarize by sum.click a cell in the pivot table do ALT F1 to present your work in a chart and format to satisfaction. CTLR X to cut and CTL V to paste in the dashboard.
 below is the chart representation
+
+
+8. What is the distribution of product ratings?
+   
+Duplicate the existing pivot table, unchecked initially checked fields, Drag rating field into rows area, product_d 
+field into values area and summarize by count to enable you get the number of products per rating.click a cell in the pivot table do ALT F1 to present your work in a chart and format to satisfaction. CTLR X to cut and CTL V to paste in the dashboard.
+below is the chart representation
+![image](https://github.com/user-attachments/assets/661c902b-dc83-4351-b5c3-7acbf5a228dd)
+
+9. What is the total pontential revenue
+(actual_price *rating_count) by category?
+
+Duplicate the existing pivot table, unchecked the initially checked field, drag category column into rows area,
+total pontential revenue into values area and summarize by sum.click a cell in the pivot table do ALT F1 to present your work in a chart and format to satisfaction. CTLR X to cut and CTL V to paste in the dashboard.
+below is the chart representation
+![image](https://github.com/user-attachments/assets/569583e1-f5e2-4399-a15d-8df29d4f107d)
+
+10. What is the number of unique products per price range bucket
+(e.g.,<₹200, ₹200-₹500,>₹500)?
+
+Duplicate the existing pivot table, unchecked initially checked field, drag price range field into rows area, price range field into values area and summarize by count.click a cell in the pivot table do ALT F1 to present your work in a chart and format to satisfaction. CTLR X to cut and CTL V to paste in the dashboard.
+below is the chart representation
+![image](https://github.com/user-attachments/assets/daab1df0-2d52-4222-8955-87a24a33bdd8)
+
+
+
 
 
 
