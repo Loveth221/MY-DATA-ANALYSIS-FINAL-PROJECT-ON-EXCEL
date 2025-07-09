@@ -127,6 +127,19 @@ Duplicate the existing pivot table, unchecked initially checked field, drag pric
 below is the chart representation
 ![image](https://github.com/user-attachments/assets/daab1df0-2d52-4222-8955-87a24a33bdd8)
 
+11. How does the rating relate to the level of discount?
+
+This has to do with correlation Analysis
+First of all, Duplicate the existing pivot table, unchecked initially checked fields, drag rating field into rows
+area, discount percentage field into values area and summarize by average. you will get the table below.
+
+![image](https://github.com/user-attachments/assets/a2525f7f-de66-428b-8aec-82a6a7469e00)
+
+12. How many products have fewer than 1,000 reviews?
+All products have fewer than 1000 reviews because the highest review per products is 8. 
+
+
+
 
 
 
