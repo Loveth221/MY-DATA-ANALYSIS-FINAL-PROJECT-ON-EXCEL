@@ -136,7 +136,15 @@ area, discount percentage field into values area and summarize by average. you w
 ![image](https://github.com/user-attachments/assets/a2525f7f-de66-428b-8aec-82a6a7469e00)
 
 12. How many products have fewer than 1,000 reviews?
-All products have fewer than 1000 reviews because the highest review per products is 8. 
+All products have fewer than 1000 reviews because the highest review per products is 8.
+
+13. Which categories have products with the highest discount?
+
+duplicate existing pivot table, unchecked initially checked fields, drag product category into rows areas, discount
+percentage into values area. click a cell in the pivot table do ALT F1 to present your work in a chart and format to satisfaction. CTLR X to cut and CTL V to paste in the dashboard.
+below is the chart representation
+<img width="752" height="452" alt="image" src="https://github.com/user-attachments/assets/c8d78e5d-094c-4b16-ae97-86a679b3db42" />
+
 
 
 
