@@ -23,6 +23,9 @@ this is a project that is aimed at analysing product and customer review data to
 ### ANALYSIS TOOL
 I was requested to use excel to execute 
 this project and that is what i used.
+Mcrosoft Excel
+Pivot table
+Charts
 
 ### DATASET DISCRIPTION
 The dataset contain information scraped from Amazon Product Pages,
@@ -64,9 +67,7 @@ the dashboard. Below is the chart representation
 2. How many product are listed under each category?
    
 Duplicate the existing pivot table, unchecked the checked initially, drag category field into rows
-product_id field into values area and sumarize value by count. click on a cell in the table, do ALT F1 in the keyboard
-to present your work in a chart and format to your satisfaction, CLTR X to cut and CTRL V to paste in the dashboard. 
-below is the chart representation
+product_id field into values area and sumarize value by count.
 
 3. What is the total number of review by category
 
