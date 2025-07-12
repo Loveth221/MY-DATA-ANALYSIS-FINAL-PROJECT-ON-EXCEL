@@ -1,6 +1,6 @@
 # MY-DATA-ANALYSIS-FINAL-PROJECT-ON-EXCEL
 
-This is a project executed at the end of my data analysis course under the guidance of Digital Skill Up Africa.
+This Project is part of my beginner journey into data analysis using microsoft Excel.The dataset used is based on Amazon related data and has been cleaned, analysed, and visualized to extract insights on product listings, prices, rating and more.
 
 
 ## PROJECT TITLE: DATA ANALYSIS CAPSTONE PROJECT
@@ -13,7 +13,7 @@ analysis
 
 - Dataset Discription
 
-- Dataset wrangling and preparation
+- Dataset cleaning and preparation
 
 - Analysis tasks
 
@@ -30,22 +30,23 @@ including: product details: name, category ,price ,discount, and rating.
 Customer engagement: user reviews, titles,and content. .Each role represents 
 a unique product,with aggregated reviewer data stored as comma-separated values.
 
-### DATA WRANGLING AND PREPARATION
-First of all, read the instrutions and requirement given meticuulously
-as this will enable you ascertain what is necessary and what is not.
+### DATA cleaning AND PREPARATION
+Key Steps: The original raw data was cleaned and processed using Excel.
 
-Having read through thoroughly, i opened the Excel data to commence the cleaning by
-removing duplicate rows that are not necessary for the analysis i intend to conduct.
-
-I created a column, new column for main category, considering the fact that i noticed
-there are repitition in the content and separated by a pipe "|" symbol. others column created are S\N 
-which was created by specifying a pattern by typing the first two numbers and use the fill handle
-to automatically fill others. Total pontential revenue was created by multiplying actual price by
+   Remove duplicates and handled missing data
+   converted prices, discounts, and review counts into numeric format
+   created calculated columns
+   such as:
+      Total pontential revenue
+      Discount-bucket
+      Price range bucket
+      50% discount or more
+      Rating count less than 1000
+      
+ Total pontential revenue was created by multiplying actual price by
 rating count, i did for the first row and used fill handle, 
 To further clean the dataset i removed the blank space in some columns by clicking on the dropdown filter and
-splitted the category columns
-
-At this point i copied all the columns into another sheet.
+splitted the category columns.
 
 ### ANALYSIS TASKS
 Use pivot table and calculated columns where necessary to answer the following:
@@ -67,15 +68,12 @@ product_id field into values area and sumarize value by count. click on a cell i
 to present your work in a chart and format to your satisfaction, CLTR X to cut and CTRL V to paste in the dashboard. 
 below is the chart representation
 
-![image](https://github.com/user-attachments/assets/a908fd52-894e-478a-b778-e89acf69a115)
-
 3. What is the total number of review by category
 
 Duplicate the existing pivot table, unchecked the field initially checked, drag category in row area
-while rating count field into values area and summarize by sum. click on a cell in the pivot table, do ALT F1
-to present your work in a chart, and format to satisfaction. CTRL X to cut and CTRL V to paste in the dashboard
-below is the chart representation
-![image](https://github.com/user-attachments/assets/1fe34e58-d80f-4ee5-8c06-79159484883c)
+while rating count field into values area and summarize by sum. click on a cell in the pivot table
+Eletronics and Homes & Kitchen have the most products and the highest number of customer reviews, It means they are 
+the most active categories.
 
 4. Which product have the highest average rating?
 
@@ -100,10 +98,10 @@ below is the chart representation
 
 7. How many product have a disount of 50% or more?
 
+662 Products has a discount percentage of 50% and more
+
 Duplicate the existing pivot table, unchecked initially checked fields, drag product_id field into row area,
-discount_percentage field into vales area and summarize by sum, product-id again into value area and summarize by count. considering the volume of products with 50% discount or more, the sction were captured in the pivot table image below.
-
-
+discount_percentage field into vales area and summarize by sum, product-id again into value area and summarize by count. considering the volume of products with 50% discount or more amounting to 662 products.
 
 8. What is the distribution of product ratings?
    
