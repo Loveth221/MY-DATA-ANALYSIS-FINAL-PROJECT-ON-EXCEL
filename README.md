@@ -150,6 +150,9 @@ Duplicate the existing pivot table, unchecked initially checked fields, drag pro
 below is the chart representation
 <img width="752" height="452" alt="image" src="https://github.com/user-attachments/assets/e27cfbaf-e8f0-490b-b0f5-6d0990399a7f" />
 
+## Visuals Preview
+Here is a sample chart from my Excel analysis
+
 
 
 
