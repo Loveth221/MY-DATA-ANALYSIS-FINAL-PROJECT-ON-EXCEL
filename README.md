@@ -100,9 +100,9 @@ below is the chart representation
 
 7. How many product have a disount of 50% or more?
 
-Duplicate the existing pivot table, unchecked initially checed fields, drag product_id field into row area,
-discount_percentage field into vales area and summarize by sum.click a cell in the pivot table do ALT F1 to present your work in a chart and format to satisfaction. CTLR X to cut and CTL V to paste in the dashboard.
-below is the chart representation
+Duplicate the existing pivot table, unchecked initially checked fields, drag product_id field into row area,
+discount_percentage field into vales area and summarize by sum, product-id again into value area and summarize by count. considering the volume of products with 50% discount or more, the sction were captured in the pivot table image below.
+
 
 
 8. What is the distribution of product ratings?
@@ -144,6 +144,13 @@ duplicate existing pivot table, unchecked initially checked fields, drag product
 percentage into values area. click a cell in the pivot table do ALT F1 to present your work in a chart and format to satisfaction. CTLR X to cut and CTL V to paste in the dashboard.
 below is the chart representation
 <img width="752" height="452" alt="image" src="https://github.com/user-attachments/assets/c8d78e5d-094c-4b16-ae97-86a679b3db42" />
+
+14. Identify the top 5 products in terms of rating and number of reviews combined.
+
+Duplicate the existing pivot table, unchecked initially checked fields, drag product-id column into rows area, rating column and rating count into values areas and summarize by sum. click a cell in the pivot table do ALT F1 to present your work in a chart and format to satisfaction. CTLR X to cut and CTL V to paste in the dashboard.
+below is the chart representation
+<img width="752" height="452" alt="image" src="https://github.com/user-attachments/assets/e27cfbaf-e8f0-490b-b0f5-6d0990399a7f" />
+
 
 
 
