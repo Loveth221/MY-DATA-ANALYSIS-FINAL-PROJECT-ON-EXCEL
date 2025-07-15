@@ -100,6 +100,8 @@ below is the chart representation
 7. How many product have a disount of 50% or more?
 
 662 Products has a discount percentage of 50% and more
+As showed below.
+<img width="967" height="734" alt="image" src="https://github.com/user-attachments/assets/125224b2-5985-4967-97bc-8898166a57c8" />
 
 Duplicate the existing pivot table, unchecked initially checked fields, drag product_id field into row area,
 discount_percentage field into vales area and summarize by sum, product-id again into value area and summarize by count. considering the volume of products with 50% discount or more amounting to 662 products.
