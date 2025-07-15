@@ -33,7 +33,7 @@ including: product details: name, category ,price ,discount, and rating.
 Customer engagement: user reviews, titles,and content. .Each role represents 
 a unique product,with aggregated reviewer data stored as comma-separated values.
 
-### DATA cleaning AND PREPARATION
+### DATA CLEANING AND PREPARATION
 Key Steps: The original raw data was cleaned and processed using Excel.
 
    Remove duplicates and handled missing data
