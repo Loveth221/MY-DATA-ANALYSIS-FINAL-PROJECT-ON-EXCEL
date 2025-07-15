@@ -100,7 +100,7 @@ below is the chart representation
 7. How many product have a disount of 50% or more?
 
 662 Products has a discount percentage of 50% and more
-As showed below.
+the top section was captured in the pivot table below
 <img width="967" height="734" alt="image" src="https://github.com/user-attachments/assets/125224b2-5985-4967-97bc-8898166a57c8" />
 
 Duplicate the existing pivot table, unchecked initially checked fields, drag product_id field into row area,
@@ -154,6 +154,8 @@ below is the chart representation
 
 ## Visuals Preview
 Here is a sample chart from my Excel analysis
+<img width="975" height="613" alt="image" src="https://github.com/user-attachments/assets/e4712cae-04a2-4d60-9415-1ef5a3534795" />
+
 
 
 
